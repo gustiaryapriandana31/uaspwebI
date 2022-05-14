@@ -1,0 +1,358 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Awal CSS untuk template di bunga-bunga */
+.undangan-awal {
+  background-image: url(pweb/paperbg.jpg);
+  width: 100%;
+  height: 1000px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.bg-bunga {
+  background-image: url(pweb/tmplt2.png);
+  background-repeat: no-repeat;
+  background-position: 50% -10%;
+  width: 100%;
+  height: 1100px;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.content h1 {
+  margin-top: 25vh;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+.content h2 {
+  margin-top: 3vh;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  color: rgb(129, 0, 0);
+}
+
+@media (max-width: 767px) {
+  .content h1 {
+    margin-top: 30vh;
+  }
+
+  .content h2 {
+    font-size: 40px;
+  }
+}
+
+.content p {
+  margin-top: 28vh;
+}
+/* Akhir CSS untuk template di bunga-bunga */
+
+/* Awal CSS untuk jadwal acara*/
+.undangan-jadwal {
+  margin-top: 46vh;
+}
+
+@media (max-width: 767px) {
+  .undangan-jadwal .caption {
+    margin-top: -20px;
+    text-align: center;
+  }
+}
+
+.undangan-jadwal .caption p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* Awal CSS untuk jadwal acara*/
+
+/* Awal CSS untuk salam */
+.undangan-salam {
+  margin-top: 140px;
+}
+
+.undangan-salam .foto-prewed {
+  width: 50%;
+  height: 50%;
+}
+
+@media (max-width: 767px) {
+  .undangan-salam .foto-prewed {
+    width: 92%;
+    height: 100%;
+  }
+}
+
+.undangan-salam p {
+  font-family: "Abel", sans-serif;
+  font-size: 22px;
+}
+
+.undangan-salam .p2 {
+  margin-top: -2vh;
+}
+
+.undangan-salam h4 {
+  margin-top: -10vh;
+  margin-bottom: 5vh;
+  font-family: "Abel", sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  font-weight: bold;
+}
+
+.undangan-salam .p-berdua {
+  color: rgb(58, 12, 12);
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  .undangan-salam .p-berdua {
+    color: rgb(58, 12, 12);
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+  }
+}
+
+.undangan-salam .p-wanita img,
+.undangan-salam .p-pria img {
+  width: 60%;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .undangan-salam .p-wanita img,
+  .undangan-salam .p-pria img {
+    width: 90%;
+    height: 100%;
+  }
+}
+
+.undangan-salam .nama {
+  font-family: "Pacifico", cursive;
+  color: rgb(58, 12, 12);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.undangan-salam .status {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(47, 65, 80);
+}
+
+.undangan-salam .bapak,
+.undangan-salam .ibu {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: rgb(77, 77, 77);
+}
+
+.undangan-salam .ibu {
+  margin-top: -3vh;
+}
+/* Akhir CSS untuk salam */
+
+/* Awal CSS untuk doa */
+.undangan-doa {
+  margin-top: 100px;
+  background-image: url(pweb/paperbg.jpg);
+}
+
+.undangan-doa .bunga {
+  width: 40%;
+  height: 40%;
+}
+
+.undangan-doa .p-text {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(77, 77, 77);
+}
+/* Akhir CSS untuk doa */
+
+/* Awal CSS untuk undangan card */
+.undangan-card {
+  margin-top: 100px;
+}
+
+.undangan-card h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+  margin-bottom: 7vh;
+  color: rgb(102, 24, 0);
+  text-shadow: 1px 1px 0 rgb(208, 117, 5), -1px -1px 0 rgb(253, 141, 4);
+}
+
+.undangan-card .card {
+  padding: 10vh;
+  box-sizing: border-box;
+  width: 70%;
+  height: 85vh;
+  margin: 0px auto;
+  background-image: url(pweb/bg1.jpg);
+  box-shadow: 0 0 15px rgb(183, 223, 236);
+}
+
+.undangan-card p {
+  text-align: center;
+}
+
+.undangan-card img {
+  width: 100%;
+  height: 25vh;
+}
+
+@media (max-width: 767px) {
+  .undangan-card .card1 {
+    margin-bottom: 50px;
+  }
+}
+
+.card-body .text-primary {
+  margin-top: -7vh;
+  font-size: 16px;
+}
+
+.card-body .text-unmargin {
+  margin-top: -3vh;
+}
+
+.card-body .text-bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.undangan-card .ngunduh-mantu {
+  margin: 20vh auto;
+}
+
+.ngunduh-mantu img {
+  width: 100%;
+  height: 25vh;
+}
+/* Akhir CSS untuk undangan card */
+
+/* Awal CSS untuk konten gallery */
+.undangan-galeri {
+  margin-top: 100px;
+}
+
+.undangan-galeri h4 {
+  font-size: 40px;
+  color: rgb(121, 0, 0);
+}
+
+.undangan-galeri .text-style {
+  font-family: "Dancing Script", cursive;
+  color: rgb(255, 59, 25);
+  font-style: normal;
+  font-size: 60px;
+  margin-top: -2vh;
+}
+
+.undangan-galeri p img {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .undangan-galeri p img {
+    width: 80%;
+    height: 450px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .undangan-galeri p img {
+    width: 100%;
+  }
+}
+/* Akhir CSS untuk konten gallery */
+
+/* Awal CSS untuk form */
+.undangan-form {
+  margin-top: 100px;
+}
+
+.undangan-form hr {
+  border-top: 3px solid rgb(113, 6, 6);
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2vh;
+}
+
+.undangan-form form {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: -3vh;
+  width: 80%;
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgb(126, 115, 115);
+  background-image: url(pweb/paperbg.jpg);
+}
+
+.undangan-form .text-style {
+  font-family: "Cookie", cursive;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 1.5vh;
+  color: rgb(0, 126, 252);
+}
+
+.undangan-form h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(121, 0, 0);
+}
+
+.undangan-form .text-italic {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.undangan-form .text-bold {
+  font-weight: bold;
+}
+
+.undangan-form h4 {
+  font-style: italic;
+}
+
+.undangan-form h4 {
+  text-shadow: 0 3px 7px rgb(141, 211, 255);
+}
+
+.undangan-form .text-info {
+  font-weight: 500;
+}
+/* Akhir CSS untuk form */
+
+/* Awal CSS untuk footer */
+footer {
+  margin-top: 100px;
+  padding: 30px;
+  height: 250px;
+  background-color: rgb(28, 34, 70);
+}
+
+.sosial-media {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+/* Akhir CSS untuk footer */
